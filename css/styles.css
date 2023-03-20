@@ -1,0 +1,18 @@
+:root {
+  --backgroun-page-color: #e5e5e5;
+  --brand-color-white: #ffffff;
+  --brand-color-black: #000000;
+  --brand-color-blue: #2196f3;
+  --brand-color-cream: #ececec;
+  --brand-color-grey: #757575;
+  --brand-color-background: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.menu {
+  backgroun-color: #ececec;
+}
+.menu-link .link:active {
+  color: #2196f3;
+}

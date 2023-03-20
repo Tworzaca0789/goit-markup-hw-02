@@ -9,10 +9,86 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--brand-color-black);
+  background: #ffffff;
 }
 .menu {
-  backgroun-color: #ececec;
+  background-color: #ffffff;
 }
-.menu-link .link:active {
+.menu-link-logo-top {
+  color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.menu-logo {
+  color: var(--brand-color-blue);
+}
+.navigation {
+  color: #212121;
+  background: #ffffff;
+}
+.navigation-link .link:focus {
   color: #2196f3;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.communications-link {
+  color: #757575;
+  background: #ffffff;
+}
+.communications-link .link:hover,
+.communications-link .link:focus {
+  color: #2196f3;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.model-pos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+  backdrop-filter: #f5f4fa;
+}
+.model-post .post:hover,
+.model-post .post.link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.vital-page {
+  background: #2f303a;
+}
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.vital-page .post:hover,
+.vital-page .post:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }

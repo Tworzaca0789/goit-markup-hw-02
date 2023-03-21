@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--brand-color-black);
   background: #ffffff;
+  font-style: normal;
 }
 .menu {
   background-color: #ffffff;
@@ -18,7 +19,6 @@ body {
 .menu-link-logo-top {
   color: #000000;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -31,45 +31,49 @@ body {
   color: #212121;
   background: #ffffff;
 }
-.navigation-link .link:focus {
-  color: #2196f3;
+.link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 1;
+  color: #212121;
+}
+.link:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
 .communications-link {
-  color: #757575;
   background: #ffffff;
 }
-.communications-link .link:hover,
-.communications-link .link:focus {
-  color: #2196f3;
+.link-top {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 1;
+  color: #757575;
 }
-.model-pos {
+.link-top:hover,
+.link-top:focus {
+  color: #2196f3;
+}
+.filter {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1, 6;
+  text-align: center;
   color: #212121;
+  border-radius: 4px;
+  background: #f5f4fa;
   backdrop-filter: #f5f4fa;
 }
-.model-post .post:hover,
-.model-post .post.link:focus {
+.model-filter .filter:hover,
+.model-filter .filter:focus {
   background-color: #2196f3;
   color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
 }
 .vital-page {
   background: #2f303a;
@@ -80,17 +84,29 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
 }
-.vital-page .post:hover,
-.vital-page .post:hover {
-  background-color: #2196f3;
-  color: #ffffff;
+.click {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.vital-page .click:hover,
+.vital-page .click:focus {
+  background-color: #2196f3;
 }
 .model-project {
   background: #ffffff;
@@ -99,7 +115,15 @@ body {
   background: #ffffff;
   border: #eeeeee;
 }
-.works-one {
+.works-one,
+.works-two,
+.works-three,
+.works-four,
+.works-five,
+.works-six,
+.works-seven,
+.works-eight,
+.works-nine {
   width: 370px;
   height: 294px;
 }
@@ -119,10 +143,6 @@ body {
   line-height: 30px;
   color: #757575;
 }
-.works-two {
-  width: 370px;
-  height: 294px;
-}
 .name-two {
   font-family: "Roboto";
   font-style: normal;
@@ -138,10 +158,6 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #757575;
-}
-.works-tree {
-  width: 370px;
-  height: 294px;
 }
 .name-three {
   font-family: "Roboto";
@@ -159,10 +175,6 @@ body {
   line-height: 30px;
   color: #757575;
 }
-.works-four {
-  width: 370px;
-  height: 294px;
-}
 .name-four {
   font-family: "Roboto";
   font-style: normal;
@@ -178,10 +190,6 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #757575;
-}
-.works-five {
-  width: 370px;
-  height: 294px;
 }
 .name-five {
   font-family: "Roboto";
@@ -199,10 +207,6 @@ body {
   line-height: 30px;
   color: #757575;
 }
-.works-six {
-  width: 370px;
-  height: 294px;
-}
 .name-six {
   font-family: "Roboto";
   font-style: normal;
@@ -218,10 +222,6 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #757575;
-}
-.works-seven {
-  width: 370px;
-  height: 294px;
 }
 .name-seven {
   font-family: "Roboto";
@@ -239,10 +239,6 @@ body {
   line-height: 30px;
   color: #757575;
 }
-.works-eight {
-  width: 370px;
-  height: 294px;
-}
 .name-eight {
   font-family: "Roboto";
   font-style: normal;
@@ -258,10 +254,6 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #757575;
-}
-.works-nine {
-  width: 370px;
-  height: 294px;
 }
 .name-nine {
   font-family: "Roboto";
@@ -279,12 +271,12 @@ body {
   line-height: 30px;
   color: #757575;
 }
-.finish-post {
+.finish-block {
   width: 1600px;
   height: 252px;
   background: #2f303a;
 }
-.finish-menu {
+.finish-logo-bottom {
   color: #2196f3;
   color: #ffffff;
   font-family: "Raleway";
@@ -294,6 +286,33 @@ body {
   line-height: 31px;
   text-decoration: none;
 }
-.description-finish {
+.subtitle-finish {
   color: var(--brand-color-blue);
+}
+.contact-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.contact-road-one {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff60;
+}
+.contact-road-two {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff60;
 }

@@ -146,13 +146,12 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.creation-blog {
+.creation-team {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
-  color: #212121;
 }
 .creation-photo {
   width: 370px;
@@ -161,13 +160,6 @@ body {
 }
 .team-people-job {
   background: #f5f4fa;
-}
-.team {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
 }
 .team-people {
   width: 270px;

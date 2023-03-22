@@ -67,6 +67,9 @@ body {
   background: #f5f4fa;
   backdrop-filter: #f5f4fa;
 }
+.pointer {
+  cursor: pointer;
+}
 .model-filter .filter:hover,
 .model-filter .filter:focus {
   background-color: #2196f3;
@@ -175,7 +178,6 @@ body {
 .post-three,
 .post-last {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 7;
@@ -277,9 +279,9 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 7;
-  text-decoration-line: underline;
   color: #ffffff99;
   color: #ffffff60;
+  text-decoration-line: underline;
 }
 .contact-road-two {
   font-family: "Roboto";

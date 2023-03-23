@@ -1,15 +1,9 @@
 :root {
-  --backgroun-page-color: #e5e5e5;
-  --brand-color-white: #ffffff;
-  --brand-color-black: #000000;
-  --brand-color-blue: #2196f3;
-  --brand-color-cream: #ececec;
-  --brand-color-grey: #757575;
-  --brand-color-background: #2f303a;
+  --color-font-primary: #212121;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  --color-font-primary: #212121;
   background: #ffffff;
   font-style: normal;
 }
@@ -24,6 +18,9 @@ body {
   line-height: 1.1;
   text-decoration: none;
 }
+.menu-link-logo-top:hover {
+  color: #2196f3;
+}
 .menu-logo {
   color: #2196f3;
 }
@@ -33,11 +30,12 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  color: #212121;
   letter-spacing: 0.02em;
   text-decoration-line: none;
+  color: #212121;
 }
-.navigation-link:focus {
+.navigation-link:focus,
+.navigation-link:hover {
   color: #2196f3;
   text-decoration: none;
 }
@@ -62,16 +60,13 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  color: #212121;
   border-radius: 4px;
   background: #f5f4fa;
   backdrop-filter: #f5f4fa;
-}
-.pointer {
   cursor: pointer;
 }
-.model-filter .filter:hover,
-.model-filter .filter:focus {
+.filter:hover,
+.filter:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -90,11 +85,8 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
 }
 .text-works {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -124,9 +116,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  cursor: pointer;
 }
-.vital-page .click:hover,
-.vital-page .click:focus {
+.click:hover,
+.click:focus {
   background-color: #2196f3;
 }
 .rank-name {
@@ -136,11 +129,8 @@ body {
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .post {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -162,9 +152,9 @@ body {
   background: #f5f4fa;
 }
 .team-people {
+  border-radius: 0px;
   width: 270px;
   height: 260px;
-  border-radius: 0px;
 }
 .person {
   font-family: "Roboto";
@@ -174,20 +164,15 @@ body {
   letter-spacing: 0.03em;
 }
 .name-job {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .finish-block {
-  width: 1600px;
-  height: 252px;
   background: #2f303a;
 }
 .finish-logo-bottom {
-  color: #2196f3;
   color: #ffffff;
   font-family: "Raleway";
   font-weight: 700;
@@ -195,41 +180,24 @@ body {
   line-height: 1.1;
   text-decoration: none;
 }
-.subtitle-finish {
-  color: #2196f3;
-}
 .contact-link,
-.contact-road-one,
-.contact-road-two:hover .contact-link,
-.contact-road-one,
-.contact-road-two:focus {
+.contact-road:hover,
+.contact-link,
+.contact-road:focus {
   color: #2196f3;
 }
 .contact-link {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration-line: none;
 }
-.contact-road-one {
-  font-family: "Roboto";
-  font-weight: 400;
+.contact-road {
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff99;
   color: #ffffff60;
-  text-decoration-line: underline;
-}
-.contact-road-two {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff99;
-  color: #ffffff60;
-  text-decoration-line: none;
+  text-decoration: none;
 }

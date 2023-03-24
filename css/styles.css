@@ -3,7 +3,7 @@
   --color-font-snow: #ffffff;
   --color-font-light: #f5f4fa;
   --color-font-dark: #000000;
-  --color-fond-sky: #2196f3;
+  --color-font-sky: #2196f3;
   --color-font-wood: #757575;
   --color-font-cloud: #2f303a;
   --color-font-eclipse: rgba(255, 255, 255, 0.6);
@@ -18,20 +18,20 @@ body {
 .menu {
   background-color: var(--color-font-snow);
 }
-.menu-link-logo-top {
+.link-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
-  color: var(--color-font-dark);
+  color: var(--color-font-sky);
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-.menu-link-logo-top:hover {
-  color: var(--color-fond-sky);
+.menu-logo:hover {
+  color: var(--color-font-sky);
 }
 .menu-logo {
-  color: var(--color-fond-sky);
+  color: var(--color-font-dark);
 }
 .navigation-link {
   font-family: "Roboto";
@@ -44,7 +44,7 @@ body {
 }
 .navigation-link:focus,
 .navigation-link:hover {
-  color: var(--color-fond-sky);
+  color: var(--color-font-sky);
 }
 .communications-link {
   background: var(--color-font-snow);
@@ -60,7 +60,7 @@ body {
 }
 .link-top:hover,
 .link-top:focus {
-  color: var(--color-fond-sky);
+  color: var(--color-font-sky);
 }
 .filter {
   font-family: "Roboto";
@@ -71,12 +71,11 @@ body {
   background: var(--color-font-light);
   text-align: center;
   letter-spacing: 0.03em;
-
   cursor: pointer;
 }
 .filter:hover,
 .filter:focus {
-  background-color: var(--color-fond-sky);
+  background-color: var(--color-font-sky);
   color: var(--color-font-snow);
 }
 .model-project {
@@ -118,7 +117,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  background: var(--color-fond-sky);
+  color: var(--color-font-snow);
+  background: var(--color-font-sky);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: flex;
   letter-spacing: 0.06em;
@@ -182,23 +182,17 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.finish-logo-bottom {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
-  color: var(--color-font-snow);
-  text-decoration: none;
-  letter-spacing: 0.03em;
+.logo-bottom:hover {
+  color: var(--color-font-sky);
 }
-.finish-logo-bottom:hover {
-  color: var(--color-fond-sky);
+.logo-bottom {
+  color: var(--color-font-snow);
 }
 .contact-link,
 .contact-road:hover,
 .contact-link,
 .contact-road:focus {
-  color: var(--color-fond-sky);
+  color: var(--color-font-sky);
 }
 .contact-link {
   font-size: 14px;
